@@ -1,0 +1,5 @@
+x = 3
+yyy = 555
+z = (x + y) / 3 - 4 * x
+x = 3 ^ yyy
+print z
