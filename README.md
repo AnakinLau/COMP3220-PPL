@@ -15,3 +15,7 @@ Read in the tokens generated from a lexer and stored in a file, then create a li
 #### Prolog Ringing Phone Room Problem
 Write a program in Prolog that will tell us how to get from one room of a one-story building, to any other room in that building (if it’s possible), by telling us all of the rooms we must go through to get to the destination room. In addition to the previous statement, there will be phones ringing in one or more of the rooms. Our prolog program should only tell us how to get to those rooms. If we attempt to go to a room that does not have a ringing phone, the program should not produce any output. 
 ###### Note: Please use path(StartingRoom, Destination). There are only 2 parameters.
+
+### Assignment 4
+#### ADA Program to Convert Between Int and Binary
+The program creates a binary array of 1’s and 0’s that is of length 16. Then allows the conversion between an array of binary and Int inputs. More details in .doc file in folder.
