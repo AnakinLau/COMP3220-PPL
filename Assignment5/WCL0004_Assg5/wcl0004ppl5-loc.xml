@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\wcl0004ppl5.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\binary.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,84 @@
+V "GNAT Lib v2016"
+M P W=b
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		8b1d4ad8 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W binary%s		binary.adb		binary.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-flteio.ads		20160516092928 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiflio.ads		20160516092926 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D binary.ads		20170429025818 dc3bae75 binary%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D main.adb		20170429030656 788adf7d main%b
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r19 1r38 2r5 2r18 2r37
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 15|1w23 2r22
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 15|1w42 2r41
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|19s4 24s4 29s4 44s4 59s4 63s4
+242U14*Put 15|33s4 36s4 39s4 42s4 48s4 51s4 54s4 57s4
+263U14*Put_Line 15|17s4 21s4 23s4 26s4 31s4 35s4 38s4 41s4 46s4 50s4 53s4
+. 56s4 61s4
+X 12 binary.ads
+3K9*Binary 15e11 15|1w59 2r58
+5I9*BINARY_NUMBER<short_short_integer>
+6A9*BINARY_ARRAY(5I9)<integer> 15|6r14 8r19 9r12 12r12
+7V13*Create_16BitBinaryArray{6A9} 15|16s17
+8U14*Print_Bin_Arr 15|18s4 28s4 43s4 58s4
+9V13*Bin_To_Int{integer} 15|22s18 34s18 37s15 40s15 49s18 52s15 55s15
+10V13*Int_To_Bin{6A9} 15|27s21
+11U14*Reverse_Bin_Arr 15|62s4
+12V14*"+"{6A9} 15|32s23
+13V14*"-"{6A9} 15|47s23
+X 15 main.adb
+4U11*Main 4b11 65l5 65t9
+6a4 My_Array{12|6A9} 16m4 18r18 22r29 32r14 34r29 47r14 49r29
+7i4 IntResult1{integer} 22m4 23r13 34m4 35r13 49m4 50r13
+8a4 Another_Array{12|6A9} 27m4 28r18 32r25 37r26 47r25 52r26
+9a4 Array3{12|6A9} 32m4 40r26 43r18
+10i4 Result2{integer} 37m4 38r13 52m4 53r13
+11i4 Result3{integer} 40m4 41r13
+12a4 Array4{12|6A9} 47m4 55r26 58r18 62r20
+13i4 Result4{integer} 55m4 56r13
+

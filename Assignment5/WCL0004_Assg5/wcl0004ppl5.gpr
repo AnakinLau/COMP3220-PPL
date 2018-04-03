@@ -1,0 +1,7 @@
+project Wcl0004PPL5 is
+
+   for Source_Files use ("binary.adb", "binary.ads", "main.adb");
+   for Main use ("main.adb");
+
+end Wcl0004PPL5;
+

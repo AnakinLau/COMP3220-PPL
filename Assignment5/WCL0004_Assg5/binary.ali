@@ -1,0 +1,136 @@
+V "GNAT Lib v2016"
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U binary%b		binary.adb		94dde332 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U binary%s		binary.ads		dc3bae75 EE NE OO PK
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D binary.ads		20170429025818 dc3bae75 binary%s
+D binary.adb		20170429030528 f7256cd8 binary%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-imguns.ads		20160516092928 9ff43cf7 system.img_uns%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160516092932 20ba1217 system.random_numbers%b
+D s-ransee.ads		20160516092932 01a57b33 system.random_seed%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 14|2r6 2r19 3r5 3r18 4r6 11r33
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 14|2w23 3r22
+X 5 a-numeri.ads
+16K13*Numerics 32e17 14|4r10 11r37
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 14|4w19 11r46
+50R9 Generator<24|63R9> 14|13r7[11]
+52V13 Random{13|5I9} 14|19s23[11]
+55U14 Reset<24|100p14> 14|17s7[11]
+X 7 a-nudira.adb
+53V16 Random[24|83]{13|5I9} 25|392b13[14|11]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 14|2w10 3r9
+166U14*New_Line 14|34s7 43s7
+242U14*Put 14|32s10 41s10
+263U14*Put_Line 14|23s7
+X 13 binary.ads
+3K9*Binary 15l5 15e11 14|6b14 153l5 153t11
+5I9*BINARY_NUMBER<short_short_integer> 6r41 14|11r63 73r33 88r35 91r35 93r35
+. 99r35 101r35 104r35 124r35 127r35 129r35 135r35 137r35 139r35 142r35
+6A9*BINARY_ARRAY(5I9)<integer> 7r44 8r39 9r35 10r49 11r41 12r29 12r56 12r77
+. 13r29 13r56 13r77 14|9r44 14r12 29r39 38r41 47r35 60r49 63r25 80r29 80r56
+. 80r77 82r21 116r29 116r56 116r77 118r21
+7V13*Create_16BitBinaryArray{6A9} 14|9b13 26l8 26t31
+8U14*Print_Bin_Arr 8>28 14|29b14 35l8 35t21
+8a28 Array_In{6A9} 14|29b28 31r16 32r43
+9V13*Bin_To_Int{integer} 9>24 14|47b13 57l8 57t18
+9a24 Array_In{6A9} 14|47b24 52r24 53r37
+10V13*Int_To_Bin{6A9} 10>24 14|60b13 76l8 76t18
+10i24 Int_In{integer} 14|60b24 61r28
+11U14*Reverse_Bin_Arr 11>30 14|38b14 44l8 44t23
+11a30 Array_In{6A9} 14|38b30 40r24 41r43
+12V14*"+"{6A9} 12>17 12>43 14|80b14 112l9 112t11
+12a17 Left_Array{6A9} 14|80b17 84r24 87r16 90r19 98r16 100r19
+12a43 Right_Array{6A9} 14|80b43 87r38 90r41 98r38 100r41
+13V14*"-"{6A9} 13>17 13>43 14|116b14 151l9 151t11
+13a17 Left_Array{6A9} 14|116b17 120r24 123r16 126r19 134r16 136r19 138r19
+13a43 Right_Array{6A9} 14|116b43 123r38 126r41 134r38 136r41 138r41
+X 14 binary.adb
+11K12 Random_Binary[6|44] 12r8
+13r4 G{6|50R9[11]} 17r13 19r30
+14a4 Array1{13|6A9} 18r16 19m10 24r14
+18i11 i{integer} 19r17
+31i11 i{integer} 32r52
+40i11 i{integer} 41r52
+48i7 Multiplier{integer} 53r52 54m10 54r24
+49i7 Result{integer} 53m10 53r20 56r14
+52i11 i{integer} 53r46
+61i7 Quotient{integer} 67r13 70r26 71m13 71r25
+62i7 Remainder{integer} 68m13 70m13 73r47
+63a7 Result_Bin_Array{13|6A9} 66r24 73m10 75r14
+66i11 i{integer} 73r27
+81i7 Carry{integer} 85r13 89m16 89r25 97r16 102m16 102r25
+82a7 Result_Array{13|6A9} 88m16 91m16 93m16 99m16 101m16 104m16 110r14
+84i11 i{integer} 87r27 87r50 88r29 90r30 90r53 91r29 93r29 98r27 98r50 99r29
+. 100r30 100r53 101r29 104r29
+117i7 Borrow{integer} 121r13 125m16 125r26 133r16 140m16 140r26
+118a7 Result_Array{13|6A9} 124m16 127m16 129m16 135m16 137m16 139m16 142m16
+. 149r14
+120i11 i{integer} 123r27 123r50 124r29 126r30 126r53 127r29 129r29 134r27
+. 134r50 135r29 136r30 136r53 137r29 138r30 138r53 139r29 142r29
+X 15 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 24 s-rannum.ads
+75V13*Random{15|74M9} 25|221i21
+76V13*Random{15|77M9} 25|221i21
+

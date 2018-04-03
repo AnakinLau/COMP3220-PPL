@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\wcl0004ppl5.gpr
+20170429031320
+[BOUND OBJECT FILES]
+E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\binary.o
+E:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\
+-LE:\School\Comp Principles of Programming Languages\Assignment5\WCL0004_Assg5\
+-LC:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000
